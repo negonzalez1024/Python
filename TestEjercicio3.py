@@ -1,11 +1,11 @@
 import unittest
-import palabra
+import Ejercicio3
 
 
-class TestEdad(unittest.TestCase):
+class TestEjercicio3(unittest.TestCase):
 
 	def testcalcularedad(self):
-		self.assertEqual(palabra.calcularpalabra("Jose"),("J","e"))
+		self.assertEqual(Ejercicio3.calcularpalabra("Jose"),("J","e"))
 		
 
 if __name__== "__main__":
